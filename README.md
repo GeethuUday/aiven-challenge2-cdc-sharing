@@ -3,7 +3,7 @@
 
 This repository implements a full end-to-end CDC pipeline using Aiven PostgreSQL, Aiven Kafka (with Debezium), and Aiven OpenSearch. Whenever you INSERT/UPDATE/DELETE a record in Postgres, Debezium captures it, writes a message into Kafka, and a Python consumer indexes (or removes) it in OpenSearch in real time.
 
-> **Note:** Database setup and Debezium connector registration are handled entirely via Terraform (no separate Python scripts needed for those steps). The “bonus” role-based security section of the challenge has been skipped.
+> **Note:** Database setup and Debezium connector registration are handled entirely via Terraform (no separate Python scripts needed for those steps). The “bonus” role-based security section of the challenge has been skipped due to time constraints.
 
 ## Repository Structure
 
