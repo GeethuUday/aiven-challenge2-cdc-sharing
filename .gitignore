@@ -1,0 +1,8 @@
+   *.pyc
+   __pycache__/
+   config.py
+   ca.pem
+   service.cert
+   service.key
+   Terraform/.terraform/
+   Terraform/terraform.tfstate*
